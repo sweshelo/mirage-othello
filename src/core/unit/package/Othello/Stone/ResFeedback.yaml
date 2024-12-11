@@ -1,0 +1,1239 @@
+Name:
+  ID: "?"
+  Data: Othello/Stone
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-ID: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: null
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: 0
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: null
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 1
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+    ParentReference: ""
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 0
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: null
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: Stone
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:Stone:0
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: ID:Stone:Components:2:Enabled:0
+                  Data: false
+                ReparentOnRelease:
+                  ID: "?"
+                  Data: true
+                PreserveUserSpace:
+                  ID: "?"
+                  Data: true
+                DestroyOnRelease:
+                  ID: "?"
+                  Data: false
+                GrabPriority:
+                  ID: "?"
+                  Data: 0
+                GrabPriorityWhenGrabbed:
+                  ID: "?"
+                  Data: null
+                CustomCanGrabCheck:
+                  ID: "?"
+                  Data:
+                    Target: null
+                EditModeOnly:
+                  ID: "?"
+                  Data: false
+                AllowSteal:
+                  ID: "?"
+                  Data: false
+                DropOnDisable:
+                  ID: "?"
+                  Data: true
+                ActiveUserFilter:
+                  ID: "?"
+                  Data: Disabled
+                OnlyUsers:
+                  ID: "?"
+                  Data: []
+                Scalable:
+                  ID: "?"
+                  Data: true
+                Receivable:
+                  ID: "?"
+                  Data: true
+                AllowOnlyPhysicalGrab:
+                  ID: "?"
+                  Data: false
+                _grabber:
+                  ID: "?"
+                  Data: null
+                _lastParent:
+                  ID: "?"
+                  Data: null
+                _lastParentIsUserSpace:
+                  ID: "?"
+                  Data: true
+                __legacyActiveUserRootOnly-ID: "?"
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                _worker:
+                  ID: "?"
+                  Data: ID:Stone:0
+                _gizmo:
+                  ID: "?"
+                  Data: null
+                _type:
+                  ID: "?"
+                  Data: 110333.33333333333
+        Children:
+          - Name:
+              ID: "?"
+              Data: Assets
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 4
+                  Data:
+                    ID: ID:Assets:Components:4:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    HighPriorityIntegration:
+                      ID: "?"
+                      Data: false
+                    MainTexture:
+                      ID: "?"
+                      Data: null
+                    Color:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                        - sRGB
+                    UseVertexColors:
+                      ID: "?"
+                      Data: false
+                    VertexColorInterpolationSpace:
+                      ID: "?"
+                      Data: Linear
+                    BlendMode:
+                      ID: "?"
+                      Data: Opaque
+                    ZWrite:
+                      ID: "?"
+                      Data: Auto
+                    AlphaClip:
+                      ID: "?"
+                      Data: 166.66666666666666
+                    MainTextureScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    MainTextureOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    Saturation:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    NormalMap:
+                      ID: "?"
+                      Data: null
+                    NormalMapScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    NormalMapOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    NormalScale:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    Metallic:
+                      ID: "?"
+                      Data: 0
+                    Glossiness:
+                      ID: "?"
+                      Data: 0
+                    Reflectivity:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    MetallicGlossMap:
+                      ID: "?"
+                      Data: null
+                    MetallicGlossMapScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    MetallicGlossMapOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    EmissionMap:
+                      ID: "?"
+                      Data: null
+                    EmissionColor:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 0
+                        - Linear
+                    EmissionMapScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    EmissionMapOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    RimColor:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - sRGB
+                    RimAlbedoTint:
+                      ID: "?"
+                      Data: 0
+                    RimAttenuationEffect:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    RimIntensity:
+                      ID: "?"
+                      Data: 0
+                    RimRange:
+                      ID: "?"
+                      Data: 233.33333333333334
+                    RimThreshold:
+                      ID: "?"
+                      Data: 33.333333333333336
+                    RimSharpness:
+                      ID: "?"
+                      Data: 33.333333333333336
+                    SpecularIntensity:
+                      ID: "?"
+                      Data: 0
+                    SpecularArea:
+                      ID: "?"
+                      Data: 166.66666666666666
+                    Matcap:
+                      ID: "?"
+                      Data: null
+                    MatcapTint:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - sRGB
+                    OcclusionMap:
+                      ID: "?"
+                      Data: null
+                    OcclusionMapScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    OcclusionMapOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    OcclusionColor:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                        - sRGB
+                    Outline:
+                      ID: "?"
+                      Data: None
+                    OutlineWidth:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    OutlineColor:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                        - sRGB
+                    OutlineAlbedoTint:
+                      ID: "?"
+                      Data: false
+                    OutlineMask:
+                      ID: "?"
+                      Data: null
+                    ShadowRamp:
+                      ID: "?"
+                      Data: ID:Assets:12:ID:0
+                    ShadowRampMask:
+                      ID: "?"
+                      Data: null
+                    ShadowRampMaskScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    ShadowRampMaskOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    ShadowRim:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - sRGB
+                    ShadowSharpness:
+                      ID: "?"
+                      Data: 166.66666666666666
+                    ShadowRimRange:
+                      ID: "?"
+                      Data: 233.33333333333334
+                    ShadowRimThreshold:
+                      ID: "?"
+                      Data: 33.333333333333336
+                    ShadowRimSharpness:
+                      ID: "?"
+                      Data: 100
+                    ShadowRimAlbedoTint:
+                      ID: "?"
+                      Data: 0
+                    ThicknessMap:
+                      ID: "?"
+                      Data: null
+                    ThicknessMapScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    ThicknessMapOffset:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    SubsurfaceColor:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                        - sRGB
+                    SubsurfaceDistortion:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    SubsurfacePower:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    SubsurfaceScale:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    OffsetFactor:
+                      ID: "?"
+                      Data: 0
+                    OffsetUnits:
+                      ID: "?"
+                      Data: 0
+                    Culling:
+                      ID: "?"
+                      Data: Back
+                    ColorMask:
+                      ID: "?"
+                      Data: RGBA
+                    AlbedoUV:
+                      ID: "?"
+                      Data: 0
+                    NormalUV:
+                      ID: "?"
+                      Data: 0
+                    MetallicUV:
+                      ID: "?"
+                      Data: 0
+                    ThicknessUV:
+                      ID: "?"
+                      Data: 0
+                    OcclusionUV:
+                      ID: "?"
+                      Data: 0
+                    EmissionUV:
+                      ID: "?"
+                      Data: 0
+                    RenderQueue:
+                      ID: "?"
+                      Data: -333.3333333333333
+                    __legacyCutout-ID: "?"
+                    _regular-ID: "?"
+                    _outline-ID: "?"
+                - Type: 5
+                  Data:
+                    ID: ID:Assets:Components:5:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    HighPriorityIntegration:
+                      ID: "?"
+                      Data: false
+                    OverrideBoundingBox:
+                      ID: "?"
+                      Data: false
+                    OverridenBoundingBox:
+                      ID: "?"
+                      Data:
+                        Min:
+                          - 0
+                          - 0
+                          - 0
+                        Max:
+                          - 0
+                          - 0
+                          - 0
+                    Profile:
+                      ID: "?"
+                      Data: Linear
+                    Height:
+                      ID: "?"
+                      Data: 1.6666666666666667
+                    Radius:
+                      ID: "?"
+                      Data: 16.666666666666668
+                    Sides:
+                      ID: "?"
+                      Data: 10666.666666666666
+                    Caps:
+                      ID: "?"
+                      Data: true
+                    FlatShading:
+                      ID: "?"
+                      Data: false
+                    UVScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: Core
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 6
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    State:
+                      ID: ID:Core:Components:6:State:0
+                      Data: false
+                    TargetField:
+                      ID: "?"
+                      Data: ID:Model:Components:7:TargetRotation:0
+                    FalseValue:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                    TrueValue:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 0
+                        - 0
+                        - 0
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: Model
+            Active:
+              ID: "?"
+              Data: true
+            ID: ID:Model:0
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: ID:Model:Tag:3
+              Data:
+                - 111111
+                - 0
+                - 0
+                - 0
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 7
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 33333333.333333332
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    InterpolationSpace:
+                      ID: "?"
+                      Data: {}
+                    TargetPosition:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                    TargetRotation:
+                      ID: ID:Model:Components:7:TargetRotation:0
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 333.3333333333333
+                    TargetScale:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    Position:
+                      ID: "?"
+                      Data: null
+                    Rotation:
+                      ID: "?"
+                      Data: ID:Model:Tag:3
+                    Scale:
+                      ID: "?"
+                      Data: null
+                    SmoothSpeed:
+                      ID: ID:Model:Components:7:SmoothSpeed:0
+                      Data: 266.6666666666667
+                    _updateIndex:
+                      ID: "?"
+                      Data: 0
+                - Type: 3
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    _worker:
+                      ID: "?"
+                      Data: ID:Model:0
+                    _gizmo:
+                      ID: "?"
+                      Data: null
+                    _type:
+                      ID: "?"
+                      Data: 110333.33333333333
+            Children:
+              - Name:
+                  ID: "?"
+                  Data: Black
+                Active:
+                  ID: "?"
+                  Data: true
+                ID: "?"
+                Persistent-ID: "?"
+                Position:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - -333.3333333333333
+                    - 0
+                Rotation:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 111111
+                Scale:
+                  ID: "?"
+                  Data:
+                    - 111111
+                    - 111111
+                    - 111111
+                Tag:
+                  ID: "?"
+                  Data: null
+                OrderOffset:
+                  ID: "?"
+                  Data: 0
+                Components:
+                  ID: "?"
+                  Data:
+                    - Type: 8
+                      Data:
+                        ID: "?"
+                        persistent-ID: "?"
+                        UpdateOrder:
+                          ID: "?"
+                          Data: 0
+                        Enabled:
+                          ID: "?"
+                          Data: true
+                        Mesh:
+                          ID: "?"
+                          Data: ID:Assets:Components:5:0
+                        Materials:
+                          ID: "?"
+                          Data:
+                            - ID: "?"
+                              Data: ID:Assets:Components:4:0
+                        MaterialPropertyBlocks:
+                          ID: "?"
+                          Data: []
+                        ShadowCastMode:
+                          ID: "?"
+                          Data: On
+                        MotionVectorMode:
+                          ID: "?"
+                          Data: Object
+                        SortingOrder:
+                          ID: "?"
+                          Data: 0
+                    - Type: 9
+                      Data:
+                        ID: "?"
+                        persistent-ID: "?"
+                        UpdateOrder:
+                          ID: "?"
+                          Data: 333333333.3333333
+                        Enabled:
+                          ID: "?"
+                          Data: true
+                        Offset:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                        Type:
+                          ID: "?"
+                          Data: Static
+                        Mass:
+                          ID: "?"
+                          Data: 333.3333333333333
+                        CharacterCollider:
+                          ID: "?"
+                          Data: false
+                        IgnoreRaycasts:
+                          ID: "?"
+                          Data: false
+                        Height:
+                          ID: "?"
+                          Data: 1.6666666666666667
+                        Radius:
+                          ID: "?"
+                          Data: 16.666666666666668
+                Children: []
+                ParentReference: ""
+              - Name:
+                  ID: "?"
+                  Data: White
+                Active:
+                  ID: "?"
+                  Data: true
+                ID: "?"
+                Persistent-ID: "?"
+                Position:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 222.33333333333334
+                    - 0
+                Rotation:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 111111
+                Scale:
+                  ID: "?"
+                  Data:
+                    - 111111
+                    - 111111
+                    - 111111
+                Tag:
+                  ID: "?"
+                  Data: null
+                OrderOffset:
+                  ID: "?"
+                  Data: 0
+                Components:
+                  ID: "?"
+                  Data:
+                    - Type: 8
+                      Data:
+                        ID: "?"
+                        persistent-ID: "?"
+                        UpdateOrder:
+                          ID: "?"
+                          Data: 0
+                        Enabled:
+                          ID: "?"
+                          Data: true
+                        Mesh:
+                          ID: "?"
+                          Data: ID:Assets:Components:5:0
+                        Materials:
+                          ID: "?"
+                          Data:
+                            - ID: "?"
+                              Data: ID:Assets:13:ID:0
+                        MaterialPropertyBlocks:
+                          ID: "?"
+                          Data: []
+                        ShadowCastMode:
+                          ID: "?"
+                          Data: On
+                        MotionVectorMode:
+                          ID: "?"
+                          Data: Object
+                        SortingOrder:
+                          ID: "?"
+                          Data: 0
+                    - Type: 9
+                      Data:
+                        ID: "?"
+                        persistent-ID: "?"
+                        UpdateOrder:
+                          ID: "?"
+                          Data: 333333333.3333333
+                        Enabled:
+                          ID: "?"
+                          Data: true
+                        Offset:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                        Type:
+                          ID: "?"
+                          Data: Static
+                        Mass:
+                          ID: "?"
+                          Data: 333.3333333333333
+                        CharacterCollider:
+                          ID: "?"
+                          Data: false
+                        IgnoreRaycasts:
+                          ID: "?"
+                          Data: false
+                        Height:
+                          ID: "?"
+                          Data: 1.6666666666666667
+                        Radius:
+                          ID: "?"
+                          Data: 16.666666666666668
+                Children: []
+                ParentReference: ""
+            ParentReference: ""
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:Stone:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:Stone:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.state
+                TargetField:
+                  ID: "?"
+                  Data: ID:Core:Components:6:State:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.animationSpeed
+                TargetField:
+                  ID: "?"
+                  Data: ID:Model:Components:7:SmoothSpeed:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.grabbable
+                TargetField:
+                  ID: "?"
+                  Data: ID:Stone:Components:2:Enabled:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""
